@@ -50,8 +50,9 @@ body {
 }
 
 .navbar a:hover {
-    color: #0ef;
+    color: rgb(138, 150, 150);
 }
+
 
 .home {
     position: relative;
