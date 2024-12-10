@@ -27,7 +27,7 @@ body {
 .logo {
     position: relative;
     font-size: 25px;
-    color: #0f96b0;
+    color: #0ef;
     text-decoration: none;
     font-weight: 600;
     cursor: default;
@@ -39,9 +39,9 @@ body {
 .navbar a {
     display: inline-block;
     font-size: 25px;
-    color:rgb(8, 40, 42);
+    color: #0ef;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 600;
     margin-left: 35px;
     transition: 3s;
     opacity: 0;
