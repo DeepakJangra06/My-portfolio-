@@ -18,7 +18,7 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: #4c5971;
+    background: #414753;
     display: flex;
     justify-content: space-between;
     align-items: 100;
@@ -38,21 +38,26 @@ body {
 
 .navbar a {
     display: inline-block;
-    font-size: 25px;
-    color: #0ef;
+    padding: 12px 28px;
+    background: #0ef;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #081b29;
+    letter-spacing: 1px;
     text-decoration: none;
     font-weight: 600;
-    margin-left: 35px;
-    transition: 3s;
     opacity: 0;
-    animation: slideTop .5s ease forwards;
-    animation-delay: calc(.2s * var(--i));
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+    box-shadow: 0 0 5px #0ef,
+        0 0 25px #0ef
 }
 
 .navbar a:hover {
-    color: rgb(138, 150, 150);
+    box-shadow: 0 0 5px #0ef,
+    0 0 25px #0ef, 0 0 50px #0ef,
+    0 0 100px #0ef, 0 0 200px #0ef
 }
-
 
 .home {
     position: relative;
@@ -850,3 +855,5 @@ form textarea {
         opacity: 1;
     }
 }
+
+
